@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05EC698B30C981B6F1F11566 /* Pods_walkfinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609D0CD7DEAF730DE6E3586A /* Pods_walkfinder.framework */; };
+		35F0CDC6BEC8AC5805A85509 /* Pods_walkfinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1878FEA6F7D9C1F376AA1A9 /* Pods_walkfinderUITests.framework */; };
 		99C98D8220D9CD8E009E6E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C98D8120D9CD8E009E6E8A /* AppDelegate.swift */; };
 		99C98D8420D9CD8E009E6E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C98D8320D9CD8E009E6E8A /* ViewController.swift */; };
 		99C98D8720D9CD8E009E6E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C98D8520D9CD8E009E6E8A /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		99C98D8C20D9CD8E009E6E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C98D8A20D9CD8E009E6E8A /* LaunchScreen.storyboard */; };
 		99C98D9720D9CD8F009E6E8A /* walkfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C98D9620D9CD8F009E6E8A /* walkfinderTests.swift */; };
 		99C98DA220D9CD8F009E6E8A /* walkfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C98DA120D9CD8F009E6E8A /* walkfinderUITests.swift */; };
+		DC147154D353D2D6F92DB7AA /* Pods_walkfinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D794D5E51A41EA58095BCF /* Pods_walkfinderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268D2D310F530B9233684E36 /* Pods-walkfinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinderUITests/Pods-walkfinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A8DABC291D7FF7D3CA6531E /* Pods-walkfinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinder/Pods-walkfinder.release.xcconfig"; sourceTree = "<group>"; };
+		609D0CD7DEAF730DE6E3586A /* Pods_walkfinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walkfinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DD5AC9134D13351027654C /* Pods-walkfinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinder/Pods-walkfinder.debug.xcconfig"; sourceTree = "<group>"; };
+		973609299BFF603CE124BA79 /* Pods-walkfinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinderUITests/Pods-walkfinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99B384E58804A590755B5C7F /* Pods-walkfinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinderTests/Pods-walkfinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		99C98D7E20D9CD8E009E6E8A /* walkfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walkfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C98D8120D9CD8E009E6E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C98D8320D9CD8E009E6E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		99C98D9D20D9CD8F009E6E8A /* walkfinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walkfinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C98DA120D9CD8F009E6E8A /* walkfinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkfinderUITests.swift; sourceTree = "<group>"; };
 		99C98DA320D9CD8F009E6E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1878FEA6F7D9C1F376AA1A9 /* Pods_walkfinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walkfinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA72B531591D0996C38BC195 /* Pods-walkfinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinderTests/Pods-walkfinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8D794D5E51A41EA58095BCF /* Pods_walkfinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walkfinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05EC698B30C981B6F1F11566 /* Pods_walkfinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC147154D353D2D6F92DB7AA /* Pods_walkfinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F0CDC6BEC8AC5805A85509 /* Pods_walkfinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44DE6179CEBE2F6CE130316F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609D0CD7DEAF730DE6E3586A /* Pods_walkfinder.framework */,
+				F8D794D5E51A41EA58095BCF /* Pods_walkfinderTests.framework */,
+				A1878FEA6F7D9C1F376AA1A9 /* Pods_walkfinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9512AF3AF8DE5309E1AD4143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81DD5AC9134D13351027654C /* Pods-walkfinder.debug.xcconfig */,
+				4A8DABC291D7FF7D3CA6531E /* Pods-walkfinder.release.xcconfig */,
+				BA72B531591D0996C38BC195 /* Pods-walkfinderTests.debug.xcconfig */,
+				99B384E58804A590755B5C7F /* Pods-walkfinderTests.release.xcconfig */,
+				973609299BFF603CE124BA79 /* Pods-walkfinderUITests.debug.xcconfig */,
+				268D2D310F530B9233684E36 /* Pods-walkfinderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		99C98D7520D9CD8E009E6E8A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				99C98D9520D9CD8F009E6E8A /* walkfinderTests */,
 				99C98DA020D9CD8F009E6E8A /* walkfinderUITests */,
 				99C98D7F20D9CD8E009E6E8A /* Products */,
+				9512AF3AF8DE5309E1AD4143 /* Pods */,
+				44DE6179CEBE2F6CE130316F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C98DA620D9CD8F009E6E8A /* Build configuration list for PBXNativeTarget "walkfinder" */;
 			buildPhases = (
+				07EEEA73EE5CEF81044B5A77 /* [CP] Check Pods Manifest.lock */,
 				99C98D7A20D9CD8E009E6E8A /* Sources */,
 				99C98D7B20D9CD8E009E6E8A /* Frameworks */,
 				99C98D7C20D9CD8E009E6E8A /* Resources */,
+				D08FCD19604B9CB424AED13D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C98DA920D9CD8F009E6E8A /* Build configuration list for PBXNativeTarget "walkfinderTests" */;
 			buildPhases = (
+				4D39E057E20BA1411EFAA434 /* [CP] Check Pods Manifest.lock */,
 				99C98D8E20D9CD8F009E6E8A /* Sources */,
 				99C98D8F20D9CD8F009E6E8A /* Frameworks */,
 				99C98D9020D9CD8F009E6E8A /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C98DAC20D9CD8F009E6E8A /* Build configuration list for PBXNativeTarget "walkfinderUITests" */;
 			buildPhases = (
+				AF00E5B19B46A41FD2B5A4AE /* [CP] Check Pods Manifest.lock */,
 				99C98D9920D9CD8F009E6E8A /* Sources */,
 				99C98D9A20D9CD8F009E6E8A /* Frameworks */,
 				99C98D9B20D9CD8F009E6E8A /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07EEEA73EE5CEF81044B5A77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walkfinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D39E057E20BA1411EFAA434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walkfinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF00E5B19B46A41FD2B5A4AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-walkfinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08FCD19604B9CB424AED13D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-walkfinder/Pods-walkfinder-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-walkfinder/Pods-walkfinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		99C98D7A20D9CD8E009E6E8A /* Sources */ = {
@@ -428,14 +549,12 @@
 		};
 		99C98DA720D9CD8F009E6E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DD5AC9134D13351027654C /* Pods-walkfinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinder/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +564,12 @@
 		};
 		99C98DA820D9CD8F009E6E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8DABC291D7FF7D3CA6531E /* Pods-walkfinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinder/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +579,13 @@
 		};
 		99C98DAA20D9CD8F009E6E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA72B531591D0996C38BC195 /* Pods-walkfinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +596,13 @@
 		};
 		99C98DAB20D9CD8F009E6E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B384E58804A590755B5C7F /* Pods-walkfinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +613,12 @@
 		};
 		99C98DAD20D9CD8F009E6E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973609299BFF603CE124BA79 /* Pods-walkfinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +629,12 @@
 		};
 		99C98DAE20D9CD8F009E6E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268D2D310F530B9233684E36 /* Pods-walkfinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

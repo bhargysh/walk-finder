@@ -1,0 +1,6 @@
+framework module Pods_walkfinder {
+  umbrella header "Pods-walkfinder-umbrella.h"
+
+  export *
+  module * { export * }
+}
