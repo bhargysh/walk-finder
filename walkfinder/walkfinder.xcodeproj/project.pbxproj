@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05EC698B30C981B6F1F11566 /* Pods_walkfinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609D0CD7DEAF730DE6E3586A /* Pods_walkfinder.framework */; };
 		35F0CDC6BEC8AC5805A85509 /* Pods_walkfinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1878FEA6F7D9C1F376AA1A9 /* Pods_walkfinderUITests.framework */; };
+		99216BB120DCD3D90013B3C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99216BB020DCD3D90013B3C2 /* CoreLocation.framework */; };
 		99C98D8220D9CD8E009E6E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C98D8120D9CD8E009E6E8A /* AppDelegate.swift */; };
 		99C98D8420D9CD8E009E6E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C98D8320D9CD8E009E6E8A /* ViewController.swift */; };
 		99C98D8720D9CD8E009E6E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C98D8520D9CD8E009E6E8A /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		609D0CD7DEAF730DE6E3586A /* Pods_walkfinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_walkfinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DD5AC9134D13351027654C /* Pods-walkfinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinder/Pods-walkfinder.debug.xcconfig"; sourceTree = "<group>"; };
 		973609299BFF603CE124BA79 /* Pods-walkfinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinderUITests/Pods-walkfinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99216BB020DCD3D90013B3C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		99B384E58804A590755B5C7F /* Pods-walkfinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-walkfinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-walkfinderTests/Pods-walkfinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		99C98D7E20D9CD8E009E6E8A /* walkfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walkfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C98D8120D9CD8E009E6E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99216BB120DCD3D90013B3C2 /* CoreLocation.framework in Frameworks */,
 				05EC698B30C981B6F1F11566 /* Pods_walkfinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +95,7 @@
 		44DE6179CEBE2F6CE130316F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99216BB020DCD3D90013B3C2 /* CoreLocation.framework */,
 				609D0CD7DEAF730DE6E3586A /* Pods_walkfinder.framework */,
 				F8D794D5E51A41EA58095BCF /* Pods_walkfinderTests.framework */,
 				A1878FEA6F7D9C1F376AA1A9 /* Pods_walkfinderUITests.framework */,
@@ -554,7 +558,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinder/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -569,7 +576,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinder/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -585,7 +595,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -602,7 +616,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -618,7 +636,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -634,7 +656,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = walkfinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.walkfinderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
