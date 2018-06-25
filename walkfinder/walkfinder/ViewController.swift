@@ -9,8 +9,12 @@
 import UIKit
 import GoogleMaps
 import CoreLocation
+import MapKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var mapView: MKMapView!
+
     let authoriseCurrentLocation: CLLocationManager = CLLocationManager()
     //class intance declaration because instantiating it inside the viewDidLoad method meant instance was released by ARC after method was had been executed
 
