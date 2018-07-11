@@ -52,5 +52,7 @@
 	<string>Show your location on the map</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Show your location on the map</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>Use location</string>
 </dict>
 </plist>
