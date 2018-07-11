@@ -21,6 +21,8 @@ class ViewController: UIViewController {
 
     mapView = GMSMapView(frame: view.frame)
     mapView.isMyLocationEnabled = true
+    locationManager.delegate = self
+    locationManager.startMonitoringSignificantLocationChanges()
     view.addSubview(mapView)
   }
   
@@ -30,18 +32,22 @@ class ViewController: UIViewController {
     if !(CLLocationManager.authorizationStatus() == .authorizedWhenInUse) {
       locationManager.requestWhenInUseAuthorization()
     } else {
-      setupMapCamera()
+      //setupMapCamera(camera: GMSCameraPosition)
     }
   }
   
-  func setupMapCamera() {
-    
+  func setupMapCamera(camera: GMSCameraPosition) {
+    mapView.animate(to: camera)
   }
 }
 
 extension ViewController: CLLocationManagerDelegate {
   func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-    setupMapCamera()
+
+  }
+  func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    let location = locations.last
+    setupMapCamera(camera: GMSCameraPosition.camera(withLatitude: (location?.coordinate.latitude)!, longitude: (location?.coordinate.longitude)!, zoom: 17.0))
   }
 }
 
